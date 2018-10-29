@@ -211,6 +211,12 @@
 		section#home{
 			background: none;
 		}
+		
+		@media(max-width:1000px){
+			section#home{
+				background: url("../img/bn_hamacame.jpg");
+			}
+		}
 
 		.fullScreenVideo{
 			pointer-events:none;
