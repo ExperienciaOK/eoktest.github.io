@@ -1,0 +1,74 @@
+Dependencias:
+reset
+jquery
+pgwmenu
+
+NAVEGACIÓN/LAYOUT GENERAL:
+
+
+Navegación
+-- Menú: PGWmenu
+-- Secciones y páginas comunes
+
+Secciones de min-height 100vh clase full-section, y otras de tamaño adaptado al contenido, sin clase en particular. Crear una clase content-section con un padding porcentual y con border-box.
+
+Anchor links:
+https://www.rapidtables.com/web/html/link/html-anchor-link.html#same-page
+https://stackoverflow.com/questions/7717527/smooth-scrolling-when-clicking-an-anchor-link
+
+TIPOGRAFÍA GENERAL:
+
+párrafo general
+párrafo variante 1
+párrafo variante 2
+H1 (título de página)
+H2 (títulos de sección)
+H3 (títulos de widgets - widgets footer, informacion de items en grilla de cuadros, título de lista de imágenes)
+H4 (títulos de cuadros - por ahora solo nombres equipo)
+(a resolver)
+
+COLORES GENERAL:
+
+(a resolver)
+
+RESPONSIVE:
+
+generar un solo breakpoint para todo el sitio. Que sea en los 1000px inicialmente, y se pueda ir cambiando según convenga; y que ahí dentro estén todas las cosas responsive de todos los módulos.
+
+MÓDULOS PARTICULARES:
+
+Home
+-- Background video: https://www.w3schools.com/howto/howto_css_fullscreen_video.asp
+-- Usar video de Flor, comprimir: https://medium.hedgeformac.com/transcoding-your-video-down-for-full-screen-website-backgrounds-vimeo-86282f218861
+-- Ocultar artefactos:
+https://www.sitepoint.com/10-guidelines-better-website-background-videos/
+
+Qué hacemos?
+H2, parrafo variante 1, fondo blanco, texto oscuro centrado. (ver módulo Tipografía)
+
+Beneficios
+H2, parrafo variante 2, fondo de color, texto diferente? (ver módulo Tipografía)
+
+Hardware:
+(módulo: grilla de cuadros)
+Cuadros grandes, con foto y texto. Todas las fotos con el mismo aspect ratio, usar dummies por ahora. Componente: Matriz de imágenes y texto. Armar para cada item dos divs de 50%, y en uno de los divs usar como background image la imagen correspondiente. Usar para el texto H3.
+USAR FLOAT LEFT para los cuadrados, así se ven en Safari y eso. darles un width de 50% que cambie a 100% en un breakpoint.
+Info para usar bien los floats:
+https://css-tricks.com/all-about-floats/
+
+Partners:
+Igual que web anterior. 1 flex con 1 sola linea, más wrap. Todas las imágenes editadas a la misma altura, PNG si es posible. Clase del componente: Lista de imágenes
+
+Imagen: No sé, poner una imagen wide editada cualquiera.
+
+Footer:
+3 items, de la misma altura y mismo ancho, alineados con un flex (o un float left?). Descripción, Menu, Contacto. Con wrap. Dentro de contacto hay 2 items que tienen la misma clase y el primero tiene un margin-bottom (usar selector de first child). Clase de componentes: individualizadas, total solo son un H3 y párrafos y listas con estilos default.
+
+Notice:
+Un p con margin auto, centrado. Nada complejo.
+
+----------
+Páginas adicionales:
+
+Equipo:
+ Usar imágenes redondas, armar widgets de equipo. H2, quizá, o H1 para los títulos. H4 para los nombres de integrantes.
