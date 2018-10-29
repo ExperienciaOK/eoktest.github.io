@@ -218,6 +218,9 @@
 				background-position:center;
 				background-size:cover;
 			}
+			.fullScreenVideo{
+				display:none;
+			}
 		}
 
 		.fullScreenVideo{
